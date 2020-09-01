@@ -63,3 +63,12 @@
 #resume-profile{
   font-size: 15px;
 }
+
+@media print{
+  body *{
+    visibility: hidden;
+  }
+  #container-header, #container-header *{
+    visibility: visible;
+  }
+}
